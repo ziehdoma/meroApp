@@ -1,0 +1,241 @@
+/*body  {
+	background-image: url(image/mac.jpg); 
+  background-repeat:no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+        
+}*/
+
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px|Maven+Pro);
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
+/*body{
+  background-image: url(images/paper.jpg);
+  background-repeat: none
+  */
+.jumbotron{
+
+    background: url("image/mac.jpg") no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+
+  
+}
+
+.jumbotron h1{
+    color: grey;
+    font-family: 'Fredericka the Great', cursive , sans-serif;
+    font-size: 120px;
+    margin-top: 10%
+    /*text-align: center;*/
+}
+.jumbotron p{
+  font-size: 50px;
+  color: #fff;
+  
+  font-family: 'Indie Flower', cursive;
+}
+hr {
+  width:  500px;
+}
+.glyphicon.glyphicon-circle-arrow-down {
+    font-size: 50px;
+    color: #fff;
+    margin-top: 5px;''
+}
+h3{
+  color: #ffffff;
+  text-align: center;
+}
+h2{
+  color:#f4511e;
+}
+h4{
+  line-height: 1.5em;
+}
+h5{
+  font-size: 30px;
+  color: #f4511e ;
+}
+h6{
+  line-height: 2em;
+  color: grey;
+}
+strong {
+  font-size: 30px;
+  color: #f4511e;
+
+}  
+.titleaboutus h2{
+  color: grey;
+  font-family: 'Fredericka the Great', cursive , sans-serif;
+}
+.contactus h2{
+  text-align: center;
+  color: grey;
+  font-family: 'Fredericka the Great', cursive , sans-serif;
+}
+
+.navbar{
+  margin-bottom: 0;
+  background-color: black;
+  border: 0;
+  font-size: 11px !important!;
+  letter-spacing: 2px;
+  opacity: 0.5;
+ 
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: #ffffff !important;
+    padding-left: 30px;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: orange !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+.thumbnail {
+   background-image: url(image/paper.jpg);
+    margin-bottom: 20px; 
+    margin-top: 40%;
+    margin-left: 15%%;
+}
+
+
+
+#steps{
+  background-image: url(image/paper.jpg);
+
+   margin-top: 2%;
+   opacity:.8;
+
+}
+
+#why{
+  background-image: url(image/paper.jpg);
+
+   margin-top: 2%;
+   opacity:.8;
+   
+
+}
+
+   
+   
+
+}
+#contact{
+  background-color: grey
+}
+.logo {
+    font-size: 200px;
+
+}
+
+.pin{
+  font-size:50px;
+  color:#000000;
+}
+
+.row {
+    margin-right: auto;
+    margin-left: 10%;
+    padding-bottom: 5%;
+    padding-top: 2em;
+}
+
+.bt-login,.bt-login:hover, .bt-login:active, .bt-login:focus {
+    background-color: #ff8627;
+    color: #ffffff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: background-color 300ms linear 0s;
+}
+
+
+.modal-content {
+  margin-top: 30%;
+}
+
+.login-tab {
+  margin: 0 auto;
+  max-width: 380px;
+}
+
+.login-modal-header {
+  background: #27ae60;
+  color: #fff;
+}
+
+.login-modal-header .modal-title {
+  color: #fff;
+}
+
+.login-modal-header .close {
+  color: #fff;
+}
+
+.login-modal i {
+  color: #000;
+}
+
+.login-modal form {
+  max-width: 340px;
+}
+
+.tab-pane form {
+  margin: 0 auto;
+}
+.login-modal-footer{
+  margin-top:15px;
+  margin-bottom:15px;
+}
+.glyphicon-education{
+  font-size: 200px;
+
+}
+#aboutus{
+  padding: 8%;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+  margin-top:50px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+    
+.col-sm-3{
+  margin-top: 10%;
+}
+.whitespace{
+  height:50px;
+  background-color:#008080;
+}
+img {
+    vertical-align: middle;
+    height: 40px;
+}
+@media (min-width: 992px)
+.col-md-8 {
+    margin-top: 10%;
+}
+h8{
+  color:grey;
+}
